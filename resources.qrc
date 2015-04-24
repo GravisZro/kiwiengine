@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="favicon.png">resources/images/favicon.png</file>
+        <file alias="logo.png">resources/images/kiwi_engine.png</file>
+    </qresource>
+    <qresource prefix="/stylesheets">
+        <file alias="mw.css">resources/stylesheets/mw.css</file>
+        <file alias="vector.css">resources/stylesheets/vector.css</file>
+    </qresource>
+    <qresource prefix="/scripts">
+        <file alias="createversions.sql">scripts/createversions.sql</file>
+    </qresource>
+</RCC>
