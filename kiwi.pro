@@ -1,4 +1,12 @@
-include(db_info.pri)
+include(dbinfo.pri)
+# dbinfo.pri should contain the following lines
+#DEFINES += DB_USERNAME=username
+#DEFINES += DB_PASSWORD=password
+#DEFINES += DB_DBNAME=database_name  # name of the database
+#DEFINES += DB_HOSTNAME=localhost    # address/IP of the server to connect to
+#DEFINES += DB_TYPE=QMYSQL           # use MySQL
+#DEFINES += DB_PORT=3306             # standard MySQL port
+# end dbinfo.pri
 
 DEFINES += KIWI_PORT=6280
 DEFINES += KIWI_HOSTNAME=localhost
