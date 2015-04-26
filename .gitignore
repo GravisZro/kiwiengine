@@ -1,2 +1,7 @@
+Makefile
+*.pro.user
+*.swp
+*.o
+*.elf
+*.srec
 dbinfo.pri
-kiwi.pro.user
